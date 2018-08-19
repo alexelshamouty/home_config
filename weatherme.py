@@ -11,7 +11,7 @@ class Weatherme(IntervalModule):
     )
     format = "Current Temp {temp}c Min {temp_min}c Max {temp_max}c Rain:{drizzel}"
     color="#00FF00"
-    interval=1
+    interval=120
     
     def run(self):
         apikey="50a0d4e894d9cadeaa04ad64572d4af5"
