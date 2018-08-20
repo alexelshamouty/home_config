@@ -7,3 +7,7 @@
 ( sleep 10 ; clipit ) &
 #Start evince
 ( sleep 5 ; evince ) &
+#Start redshift
+redshift &
+
+(x0vncserver -display :0 -passwordfile ~/.vnc/passwd > /dev/null 2>&1) &
